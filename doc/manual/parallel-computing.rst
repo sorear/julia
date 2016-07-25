@@ -927,7 +927,7 @@ When using custom transports:
 On the master process, the corresponding ``AsyncStream`` objects must be closed by the implementation to ensure proper cleanup. The default
 implementation simply executes an ``exit()`` call on the specified remote worker.
 
-``examples/clustermanager/simple`` is an example that shows a simple implementation using unix domain sockets for cluster setup
+``examples/clustermanager/simple`` is an example that shows a simple implementation using UNIX domain sockets for cluster setup
 
 Network requirements for LocalManager and SSHManager
 ----------------------------------------------------
